@@ -1,9 +1,12 @@
 import React from 'react'
+import CustomDateRange from '../components/DateRange'
 
 const Timesheet = () => {
   return (
     <div>
-        <h1 style={{color:'#19105b'}}>Timesheet</h1>
+        <h1 style={{color:'#19105b', marginBottom: '24px'}}>Timesheet</h1>
+
+        <CustomDateRange/>
         </div>
   )
 }
